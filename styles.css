@@ -104,7 +104,7 @@ header .profile-image {
     transition: all .5s;
 }
 header .profile-image:hover {
-    transform: scale(1.2) rotate(5deg);
+    transform: scale(1.2);
 }
 .tag {
     background-color: #efefef;
@@ -155,6 +155,15 @@ ul.skills {
 
 .skills li:nth-child(odd) {
     background: #ffbd69;
+}
+
+figure img {
+    width: 250px;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 9px;
 }
 
 footer {
